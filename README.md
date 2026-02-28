@@ -1,6 +1,4 @@
-# pangeding.github.io
-
-专注于区块链开发
+# 专注于区块链开发
 
 github: pangeding \
 blog: pangeding.github.io \
