@@ -1,4 +1,31 @@
-title: pangeding
-author: pangeding
-theme: jekyll-theme-minimal # 可选主题，也可以自定义
-markdown: kramdown
+title: 技术博客
+email: your-email@example.com
+description: >- 
+  记录技术学习和实践经验的个人博客
+baseurl: ""
+url: ""
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# 图片资源路径配置
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+
+# 排除不需要处理的文件
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
