@@ -1,3 +1,10 @@
+```
+---
+layout: post
+title: "Claude Code 使用指南"
+date: 2026-03-01
+---
+
 专注于区块链开发
 
 github: pangeding \
@@ -5,6 +12,9 @@ blog: pangeding.github.io \
 公众号: pangeding \
 （暂时未同步）博客园: pangeding \
 （暂时未开发）小红薯
+
+```
+
 
 作为古法编程者，终于是用上了超强的 Claude code 啦！
 # 1. 安装 Claude code
@@ -41,25 +51,4 @@ plugin 存在的问题是会强制你官方登录，由于我也不是一个重�
 
 后续考虑使用 codex 代替
 ![2](.assets/260301-use-claude-code/2.png)
-```
----
-layout: post
-title: "Claude Code 使用指南"
-date: 2026-03-01 10:00:00 +0800
-categories: [技术分享, AI工具]
-tags: [claude, coding, ai]
----
 
-# Claude Code 使用指南
-
-最近在尝试使用 Claude Code 来提升开发效率，这里记录一下使用心得。
-
-## 安装与配置
-
-首先需要安装 Claude Code 插件：
-
-![Claude Code 插件界面]({{ site.baseurl }}/assets/images/claude-code-plugin.png)
-
-安装完成后需要进行基本配置：
-
-```
