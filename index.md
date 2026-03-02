@@ -13,14 +13,26 @@ blog: pangeding.github.io \
 （暂时未同步）博客园: pangeding \
 （暂时未开发）小红薯
 
+## 文章分类
+<div class="categories">
+  <a href="/category/ai">AI</a>
+  <a href="/category/web3">Web3</a>
+</div>
+
 ## 最新文章
 
 <ul>
   {% for post in site.posts %}
     <li>
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt }}</p>
       <small>发布于 {{ post.date | date: "%Y年%m月%d日" }}</small>
+      {% if post.categories %}
+        <div class="post-categories">
+          {% for category in post.categories %}
+            <span class="category">{{ category }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
