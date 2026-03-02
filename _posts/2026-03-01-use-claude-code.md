@@ -1,4 +1,3 @@
-```
 ---
 layout: post
 title: "Claude Code 使用指南"
@@ -13,7 +12,6 @@ blog: pangeding.github.io \
 （暂时未同步）博客园: pangeding \
 （暂时未开发）小红薯
 
-```
 
 
 作为古法编程者，终于是用上了超强的 Claude code 啦！
