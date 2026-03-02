@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 首页
+title: pangeding web3 AI
 ---
 
 # 欢迎来到我的技术博客
@@ -17,6 +17,7 @@ blog: pangeding.github.io \
 <div class="categories">
   <a href="/category/ai">AI</a>
   <a href="/category/web3">Web3</a>
+  <a href="/category/区块链">区块链</a>
 </div>
 
 ## 最新文章
@@ -28,8 +29,9 @@ blog: pangeding.github.io \
       <small>发布于 {{ post.date | date: "%Y年%m月%d日" }}</small>
       {% if post.categories %}
         <div class="post-categories">
+          分类：
           {% for category in post.categories %}
-            <span class="category">{{ category }}</span>
+            <a href="/category/{{ category | slugify }}" class="category">{{ category }}</a>
           {% endfor %}
         </div>
       {% endif %}
