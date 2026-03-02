@@ -10,8 +10,8 @@ title: 首页
 github: pangeding \
 blog: pangeding.github.io \
 公众号: pangeding \
-（暂时未同步）博客园: pangeding \
-（暂时未开发）小红薯
+博客园: pangeding \
+小红薯: pangeding 95581589128
 
 ## 文章分类
 <div class="categories">
