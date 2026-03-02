@@ -4,16 +4,6 @@ title: "Claude Code 使用指南"
 date: 2026-03-01
 ---
 
-专注于区块链开发
-
-github: pangeding \
-blog: pangeding.github.io \
-公众号: pangeding \
-（暂时未同步）博客园: pangeding \
-（暂时未开发）小红薯
-
-
-
 作为古法编程者，终于是用上了超强的 Claude code 啦！
 # 1. 安装 Claude code
 ![1](.assets/260301-use-claude-code/1.png)
