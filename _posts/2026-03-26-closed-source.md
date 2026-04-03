@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "资产不足1000万不要去参加开源，积攒绝活"
+title: "ai将面临数据紧缺"
 date: 2026-03-26
 categories: [AI]
 tags: [ai 转型，程序员发展]
